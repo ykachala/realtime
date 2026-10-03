@@ -1,19 +1,19 @@
-# @yowelikachala/realtime
+# @yoweli/realtime
 
 Pusher-style real-time client for the Realtime Messaging Service.
 
 ## Install
 
 ```bash
-npm install @yowelikachala/realtime
+npm install @yoweli/realtime
 ```
 
-> Replace `@yowelikachala/realtime` with the name you publish under.
+> Replace `@yoweli/realtime` with the name you publish under.
 
 ## Frontend (Browser / React / Vue / etc.)
 
 ```js
-import { Realtime } from '@yowelikachala/realtime';
+import { Realtime } from '@yoweli/realtime';
 
 // 1. Create instance (like new Pusher(...))
 const realtime = new Realtime({
@@ -58,7 +58,7 @@ console.log(presence.getMemberCount());
 ## Backend (Node.js)
 
 ```js
-import { Realtime } from '@yowelikachala/realtime/server';
+import { Realtime } from '@yoweli/realtime/server';
 
 const realtime = new Realtime({
   host: 'https://messaging.yourdomain.com',

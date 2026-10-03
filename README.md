@@ -8,8 +8,6 @@ Pusher-style real-time client for the Realtime Messaging Service.
 npm install @yoweli/realtime
 ```
 
-> Replace `@yoweli/realtime` with the name you publish under.
-
 ## Frontend (Browser / React / Vue / etc.)
 
 ```js
